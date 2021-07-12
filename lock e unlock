@@ -1,0 +1,70 @@
+Lock:
+$nomention
+
+
+
+$onlyBotPerms[managechannels;Eu não possuo a permissão de `Gerenciar Canais`!]
+
+
+
+$onlyPerms[managechannels;Você não possui a permissão de `Gerenciar Canais`!]
+
+
+
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+
+
+
+$title[Canal de texto]
+
+
+
+$description[🔒 Este canal foi trancado! Use `!!unlock` para destrancá-lo!]
+
+
+
+$color[$getServerVar[blue]]
+
+
+
+$footer[Sistema]
+
+
+
+$addTimestamp
+
+
+Unlock:
+$nomention
+
+
+
+$onlyBotPerms[managechannels;Eu não possuo a permissão de `Gerenciar Canais`!]
+
+
+
+$onlyPerms[managechannels;Você não possuí a permissão de `Gerenciar Canais`!]
+
+
+
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+
+
+
+$title[Canal de texto]
+
+
+
+$description[🔓 Este canal foi destrancado! Use `!!lock` para trancá-lo novamente!]
+
+
+
+$footer[Sistema]
+
+
+
+$color[$getServerVar[blue]]
+
+
+
+$addTimestamp
